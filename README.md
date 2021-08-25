@@ -2,7 +2,6 @@
 Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciência de Dados e Big Data
 
 
-Contextualização
 
 A autorização é um dos diversos mecanismos utilizados pelas operadoras de planos de saúde visando controlar o uso ou a demanda de serviços prestados aos beneficiários. Nesse cenário, uma autorização prévia para realizar exames e processos de alta complexidade é um dos mecanismos das operadoras para gerenciar a utilização dos seus serviços. 
 
@@ -15,20 +14,19 @@ Ao controlar melhor as demandas dos serviços prestados aos seus beneficiários,
 O processo para solicitar a autorização costuma variar de acordo com o plano e o tipo do procedimento. A autorização para exames, internações e serviços específicos costuma envolver a ida até a rede credenciada mais próxima com a guia ou pedido médico do exame/procedimento, o cartão de identificação do plano e um documento pessoal (como o RG). Algumas operadoras também trabalham com solicitações via internet.
 
 
-O problema proposto
 
 O projeto tem como objetivo propor um modelo preditivo para previsão das situações das autorizações solicitas a operadora de plano de saúde, utilizando informações das autorizações já analisadas pelos auditores.
 
-•	Justificativa<br>
+Justificativa<br>
 O processo atual de autorização de procedimentos ocorre da seguinte forma. Alguns procedimentos realizados pelos beneficiários sejam eles consultas, exames ou cirurgias, geram pedidos de autorização junto a operadora. Esse pedido é chamado guia de autorização, essas guias são recebidas de forma eletrônica e na forma física. Alguns desses procedimentos são autorizados de forma automática pois no sistema de gestão da operadora existem regras configuradas que determinam se o procedimento vai ser autorizado automaticamente ou se será necessário a validação de um auditor.
 O auditor é o médico responsável por analisar a guia e decidir se será autorizada ou negada. Para tomar essa decisão o médico usa de várias informações como, histórico médico do paciente, informações sobre os tipos de serviços, os valores dos itens solicitados e resoluções da ANS. 
 Todo o processo de auditoria exige precisão e agilidade, pois são procedimentos que podem primeiramente salvam vidas, e que também afetam diretamente a saúde financeira da operadora caso a análise não seja feita da forma correta.
 Como o volume de solicitações é elevado e carecem de uma análise profunda de auditoria, o processo geralmente é caro e pouco assertivo. Diante disso propõe-se um modelo preditivo baseado no histórico de auditoria capaz prever se a solicitação será autorizada ou negada.
 
-•	Fontes de dados<br>
+Fontes de dados<br>
 Os dados utilizados são privados e vieram de uma fonte principal que é o data warehouse (DW) da operadora, onde se encontra centralizado informações de diversos sistemas que são utilizados pela empresa.
 
-•	Objetivo da análise<br>
+Objetivo da análise<br>
 O objetivo é analisar as características das autorizações auditadas e propor um modelo preditivo usando seus principais atributos para classificá-las em autorizada ou negada.
 
 
