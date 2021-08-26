@@ -1,4 +1,4 @@
-# ANÁLISE E PREVISÃO DE AUTORIZAÇÕES UTILIZANDO MODELOS PREDITIVOS
+# Análise e previsão de autorizações utilizando modelos preditivos
 Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciência de Dados e Big Data
 
 
